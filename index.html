@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Construction Material Rentals</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1 class="hero-title">🏗️ SNG & Co</h1>
+      <p class="hero-subtitle">Builders & Engineers</p>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="filter">
+      <label for="categoryFilter">Filter by category:</label>
+      <select id="categoryFilter" onchange="filterProducts()">
+      <option value="all">All</option>
+      <option value="Centering Sheets">Centering Sheets</option>
+      <option value="Savukku Tree">Savukku Tree</option>
+      <option value="Colunm Box">Colunm Box</option>
+      <option value="Colunm Shoe">Colunm Shoe</option>
+      <option value="Cutting Machine">Cutting Machine</option>
+      </select>
+    </section>
+
+    <section id="products">
+      <h2>Rental Products</h2>
+      <div id="productList" class="product-list"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>📍 Address: SNG & Co
+Palathurai Rd, Madukkarai, Coimbatore, Tamil Nadu 641021,India</p>
+      <p>📞 Phone: +91 7418182831</p>
+      <div class="map">
+        <iframe
+ 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.84509096151402!2d76.97048917479934!3d10.923927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b007c4e5f7f%3A0xa740cc274220e542!2sSNG%20%26%20Co!5e0!3m2!1sta!2sin!4v1748842361531!5m2!1sta!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+      </div>
+      <div class="contact-buttons">
+        <a href="https://wa.me/7418182831" class="whatsapp">Chat on WhatsApp</a>
+        <a href="tel:+917418182831" class="call">Call Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Construction Rentals. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
